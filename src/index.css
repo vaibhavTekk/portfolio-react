@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply border-4 border-black drop-shadow-v-4 hover:drop-shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-300;
+  }
+
+  .box-2 {
+    @apply border-2 border-black drop-shadow-v-2 hover:drop-shadow-none hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  background-image: radial-gradient(#9c9c9c 20%, #e8dfca 20%);
+  background-position: 0 0;
+  background-size: 10px 10px;
+  height: 200px;
+  width: 100%;
 }
