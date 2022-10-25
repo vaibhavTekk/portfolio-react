@@ -12,6 +12,14 @@
   .box-2 {
     @apply border-2 border-black drop-shadow-v-2 hover:drop-shadow-none hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300;
   }
+
+  .underline-hover-6 {
+    @apply bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_6px] bg-no-repeat hover:bg-[length:100%_6px] transition-all duration-500 ease-out;
+  }
+
+  .underline-hover-3 {
+    @apply bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_3px] bg-no-repeat hover:bg-[length:100%_3px] transition-all duration-500 ease-out;
+  }
 }
 
 html,
