@@ -16,14 +16,14 @@ function ProjectItem({ data }) {
       </ul>
       <div className="flex flex-row items-center w-full justify-center gap-4">
         {github && (
-          <a href={github} className="flex flex-row items-center box bg-v-blue p-2">
+          <a href={github} className="flex flex-row items-center box bg-v-blue p-2" target="_blank" rel="noreferrer">
             <GitHub></GitHub>
           </a>
         )}
         {livelink && (
           <span className="flex flex-row box items-center bg-v-blue p-2 gap-2 w-fit">
             <Globe></Globe>
-            <a href={livelink} className="text-xl font-bold underline-hover-3">
+            <a href={livelink} className="text-xl font-bold underline-hover-3" target="_blank" rel="noreferrer">
               Live Link
             </a>
           </span>

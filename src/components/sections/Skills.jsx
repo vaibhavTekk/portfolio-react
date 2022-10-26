@@ -1,14 +1,24 @@
 import React from "react";
 import SkillItem from "../items/SkillItem";
 import react from "../../assets/icons/react-2.svg";
+import html from "../../assets/icons/html.png";
+import tailwind from "../../assets/icons/tailwind.svg";
+import python from "../../assets/icons/python.png";
+import css from "../../assets/icons/css-3.png";
+import js from "../../assets/icons/js.png";
+import node from "../../assets/icons/node-js.png";
+
 function Skills() {
   const skillList = [
+    { icon: python, skill: "Python" },
+    /*{ icon: c, skill: "C/C++" },*/
+    { icon: html, skill: "HTML" },
+    { icon: css, skill: "CSS" },
+    { icon: js, skill: "JavaScript" },
+    { icon: tailwind, skill: "Tailwind" },
     { icon: react, skill: "React" },
-    { icon: react, skill: "React" },
-    { icon: react, skill: "React" },
-    { icon: react, skill: "React" },
-    { icon: react, skill: "React" },
-    { icon: react, skill: "React" },
+    { icon: node, skill: "NodeJS" },
+    /*{ icon: next, skill: "NextJS" },*/
   ];
 
   return (

@@ -18,7 +18,7 @@ function Links() {
           return (
             <span key={text} className="flex flex-row items-center justify-start p-2 box bg-v-white">
               <span className="mx-4">{icon}</span>
-              <a href={link}>
+              <a href={link} target="_blank" rel="noreferrer">
                 <span className="text-lg lg:text-xl font-bold underline-hover-3">{text}</span>
               </a>
             </span>

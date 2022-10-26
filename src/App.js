@@ -6,9 +6,15 @@ import Projects from "./components/sections/Projects";
 import Links from "./components/sections/Links";
 import Navbar from "./components/Navbar";
 
+import bg from "./assets/shapes/group14.png";
+
 export default function Home() {
   return (
-    <div className="font-['JetBrains_Mono']">
+    <div
+      className="font-['JetBrains_Mono']"
+      style={{ background: `url(${bg}) repeat-y`, backgroundSize: "contain", backgroundPositionY: "128px" }}
+    >
+      <Navbar />
       <Layout>
         <Hero />
         <About />
