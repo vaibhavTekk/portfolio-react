@@ -10,18 +10,17 @@ import bg from "./assets/shapes/group14.png";
 
 export default function Home() {
   return (
-    <div
-      className="font-['Space_Grotesk']"
-      style={{ background: `url(${bg}) repeat-y`, backgroundSize: "contain", backgroundPositionY: "128px" }}
-    >
-      <Navbar />
-      <Layout>
-        <Hero />
-        <About />
-        <Skills id="skills" />
-        <Projects id="projects" />
-        <Links id="links" />
-      </Layout>
+    <div>
+      <div className="font-['Space_Grotesk']">
+        <Navbar />
+        <Layout>
+          <Hero />
+          <About />
+          <Skills id="skills" />
+          <Projects id="projects" />
+          <Links id="links" />
+        </Layout>
+      </div>
     </div>
   );
 }
