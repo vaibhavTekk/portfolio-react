@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div
       className="font-['Space_Grotesk']"
-      style={{ background: `url(${bg}) repeat-y`, backgroundSize: "contain", backgroundPositionY: "128px" }}
+      style={{ background: `url(${bg}) repeat-y`, backgroundSize: "cover", backgroundPositionY: "128px" }}
     >
       <Navbar />
       <Layout>
