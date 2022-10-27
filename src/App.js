@@ -11,7 +11,7 @@ import bg from "./assets/shapes/group14.png";
 export default function Home() {
   return (
     <div
-      className="font-['JetBrains_Mono']"
+      className="font-['Space_Grotesk']"
       style={{ background: `url(${bg}) repeat-y`, backgroundSize: "contain", backgroundPositionY: "128px" }}
     >
       <Navbar />

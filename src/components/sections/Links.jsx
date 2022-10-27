@@ -2,12 +2,14 @@ import React from "react";
 import { GitHub } from "react-feather";
 import { Instagram } from "react-feather";
 import { Linkedin } from "react-feather";
+import { Twitter } from "react-feather";
 
 function Links() {
   const linkList = [
     { icon: <GitHub />, text: "Github", link: "https://github.com/vaibhavTekk" },
     { icon: <Instagram />, text: "Instagram", link: "https://www.instagram.com/vaibhavtekk/" },
     { icon: <Linkedin />, text: "Linkedin", link: "https://www.linkedin.com/in/vaibhav-tekkalur" },
+    { icon: <Twitter />, text: "Twitter", link: "https://www.linkedin.com/in/vaibhavTekk" },
   ];
 
   return (
