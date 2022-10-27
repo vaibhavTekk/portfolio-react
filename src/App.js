@@ -6,14 +6,9 @@ import Projects from "./components/sections/Projects";
 import Links from "./components/sections/Links";
 import Navbar from "./components/Navbar";
 
-import bg from "./assets/shapes/group14.png";
-
 export default function Home() {
   return (
-    <div
-      className="font-['Space_Grotesk']"
-      style={{ background: `url(${bg}) repeat-y`, backgroundSize: "cover", backgroundPositionY: "128px" }}
-    >
+    <div className={"font-['Space_Grotesk'] background"}>
       <Navbar />
       <Layout>
         <Hero />

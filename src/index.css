@@ -30,3 +30,10 @@ body {
   height: 200px;
   width: 100%;
 }
+
+.background {
+  background-image: url("https://i.imgur.com/CSo9ulp.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position-y: 128px;
+}
