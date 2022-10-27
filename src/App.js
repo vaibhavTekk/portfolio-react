@@ -18,9 +18,9 @@ export default function Home() {
       <Layout>
         <Hero />
         <About />
-        <Skills />
-        <Projects />
-        <Links />
+        <Skills id="skills" />
+        <Projects id="projects" />
+        <Links id="links" />
       </Layout>
     </div>
   );
