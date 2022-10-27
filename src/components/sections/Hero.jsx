@@ -4,7 +4,7 @@ import Typing from "../Typing";
 
 function Hero() {
   return (
-    <div className="flex flex-row items-center my-8 mb-12 md:mt-32 md:mb-48 w-full h-fit">
+    <main className="flex flex-row items-center my-8 mb-12 md:mt-32 md:mb-48 w-full h-fit">
       <div className=" w-full pl-4 md:pl-12 pr-4 sm:pr-24 py-12 md:py-24 text-xl md:text-3xl lg:text-6xl text-center sm:text-left flex flex-col gap-1 bg-v-white box">
         <p>Hi ! 👋</p>
         <p>
@@ -19,7 +19,7 @@ function Hero() {
           alt="profile pic"
         ></img>
       </span>
-    </div>
+    </main>
   );
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex flex-col items-start">
+    <section className="flex flex-col items-start">
       <p className="text-4xl md:text-6xl font-extrabold my-2">About</p>
       <div className="w-full text-lg sm:text-xl md:text-4xl box bg-v-white p-8 md:p-12 my-2">
         <ul>
@@ -12,7 +12,7 @@ function About() {
           <li>• Learning Typescript and Next.js</li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
 
